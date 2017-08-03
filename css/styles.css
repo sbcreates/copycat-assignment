@@ -6,6 +6,7 @@
 
 html {
   font-family: sans-serif;
+  background-color: white;
 }
 
 header {
@@ -30,10 +31,6 @@ h1 {
 
 h2 {
 
-}
-
-h3 {
-  color:#EF476F;
 }
 
 .logo {
@@ -73,7 +70,17 @@ h3 {
 }
 
 .products {
-  background-color: #F1F1F1F1;
+  background-color: #F2F2F2;
+}
+
+.product-container {
+  padding: 0 20px;
+}
+
+.product-container li {
+  display: inline-block;
+  width: 33.33%;
+  padding: 10px;
 }
 
 .products img {
@@ -82,6 +89,10 @@ h3 {
 
 .about {
   background-color: #26547C;
+}
+
+.about h3 {
+  color:#EF476F;
 }
 
 footer {
