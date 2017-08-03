@@ -76,6 +76,10 @@ h3 {
   background-color: #F1F1F1F1;
 }
 
+.products img {
+  border: 2px solid black;
+}
+
 .about {
   background-color: #26547C;
 }
