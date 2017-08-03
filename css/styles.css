@@ -15,6 +15,27 @@ header {
   height: 50px;
 }
 
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
 .logo {
  color: white;
  float:left;
@@ -28,15 +49,6 @@ header {
   position: absolute;
   right: 0;
   padding: 15px 0;
-}
-
-main {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-img {
-  width: 100%;
 }
 
 .welcome {
@@ -54,4 +66,20 @@ img {
   text-align: center;
   display: inline-block;
   width:40%;
+}
+
+.cats {
+  background-color: #FFD166;
+}
+
+.products {
+  background-color: #F1F1F1F1;
+}
+
+.about {
+  background-color: #26547C;
+}
+
+footer {
+  background-color: #06D6A0;
 }
