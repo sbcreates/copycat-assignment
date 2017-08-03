@@ -3,3 +3,55 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #06D6A0;
+  width: 100%;
+  overflow: hidden;
+  height: 50px;
+}
+
+.logo {
+ color: white;
+ float:left;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar {
+  position: absolute;
+  right: 0;
+  padding: 15px 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.welcome {
+  background-color: #26547C;
+  overflow: hidden;
+  color: white;
+}
+
+.welcome-img {
+  width: 60%;
+  float: left;
+}
+
+.welcome-txt {
+  text-align: center;
+  display: inline-block;
+  width:40%;
+}
