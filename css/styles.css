@@ -9,11 +9,12 @@ html {
   background-color: white;
 }
 
+/*BASIC ELEMENT STYLING*/
 header {
   background-color: #06D6A0;
   width: 100%;
   overflow: hidden;
-  height: 50px;
+  height: 60px;
 }
 
 main {
@@ -35,22 +36,24 @@ p {
   padding: 10px 0;
 }
 
-
 /*HEADER*/
 .logo {
   font-size: 18px;
   color: white;
   float:left;
+  padding: 20px 0 20px 20px;
 }
 
 .navbar li {
   display: inline-block;
+  font-size: 19px;
+  padding: 0 5px;
 }
 
 .navbar {
   position: absolute;
   right: 0;
-  padding: 15px 0;
+  padding: 20px 20px 20px 0;
 }
 
 /*WELCOME*/
@@ -100,7 +103,6 @@ p {
 .products img {
   border: 3px solid black;
 }
-
 
 /*ABOUT*/
 .about {
