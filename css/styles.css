@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: white;
 }
 
@@ -25,17 +25,22 @@ img {
   width: 100%;
 }
 
-h1 {
-
+h3 {
+  font-size: 22px;
+  padding: 10px 0;
 }
 
-h2 {
-
+p {
+  font-size: 19px;
+  padding: 10px 0;
 }
 
+
+/*HEADER*/
 .logo {
- color: white;
- float:left;
+  font-size: 18px;
+  color: white;
+  float:left;
 }
 
 .navbar li {
@@ -48,6 +53,8 @@ h2 {
   padding: 15px 0;
 }
 
+
+/*WELCOME*/
 .welcome {
   background-color: #26547C;
   overflow: hidden;
@@ -59,14 +66,23 @@ h2 {
   float: left;
 }
 
-.welcome-txt {
+.welcome h2 {
+  font-size: 36px;
   text-align: center;
   display: inline-block;
   width:40%;
 }
 
+
+/*CATS*/
 .cats {
   background-color: #FFD166;
+}
+
+
+/*PRODUCTS*/
+.products, .cats, .about {
+  padding: 40px 20px;
 }
 
 .products {
@@ -74,7 +90,7 @@ h2 {
 }
 
 .product-container {
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 .product-container li {
@@ -87,14 +103,28 @@ h2 {
   border: 3px solid black;
 }
 
+
+/*ABOUT*/
 .about {
   background-color: #26547C;
 }
 
 .about h3 {
   color:#EF476F;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 40px;
 }
 
+.about p {
+  clear: both;
+  color: white;
+}
+
+
+/*FOOTER*/
 footer {
   background-color: #06D6A0;
 }
