@@ -151,18 +151,66 @@ footer {
   }
 
   .navbar {
+    position: inherit;
     padding: 0;
     text-align: center;
   }
 
   .navbar li {
     font-size: 16px;
-    display: inherit;
-    padding: 2px 0;
+    display: block;
+    padding: 2.5px 0;
   }
 
-  .navbar a {
-
+  /*WELCOME*/
+  .welcome {
+    background-color: white;
+    margin-bottom: 22px;
+    text-align: center;
   }
 
+  .welcome-img {
+    width: 100%;
+    clear: both;
+  }
+
+  .welcome h2 {
+    display:inline-block;
+    width: auto;
+    color: black;
+    font-size: 24px;
+    border-bottom: 5px solid #EF476F;
+    padding-top: 22px;
+    padding-bottom: 5px;
+  }
+
+  /*RESIZE FONTS OF H3 AND PARAGRAPHS FOR EACH SECTION*/
+  h3 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /*PRODUCTS - RESIZE IMAGES*/
+  .product-container li {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+
+  .products img {
+    border: none;
+  }
+
+  /*ABOUT*/
+  .about h3 {
+    padding-bottom: 20px;
+  }
+
+  /*FOOTER*/
+  footer {
+    font-size: 16px;
+  }
 }
