@@ -131,3 +131,38 @@ footer {
   padding: 15px 20px 15px 0;
   font-size: 19px;
 }
+
+/*--------------------------------------------------------*/
+/*RESPONSIVE DESIGN*/
+/*--------------------------------------------------------*/
+/*FOR MOBILE PHONES*/
+@media only screen and (max-width: 550px) {
+  /*HEADER*/
+  header {
+    height: 170px;
+  }
+
+  .logo {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+  }
+
+  .navbar {
+    padding: 0;
+    text-align: center;
+  }
+
+  .navbar li {
+    font-size: 16px;
+    display: inherit;
+    padding: 2px 0;
+  }
+
+  .navbar a {
+
+  }
+
+}
